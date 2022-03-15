@@ -49,7 +49,7 @@ function App() {
     <div className="App">
       <div className="calculator">
         <div className="display">
-          {result ? <span></span> : ' '}
+          {result ? <span> </span> : ' '}
           { calc || "0" }
         </div>
         <div className="operators">
