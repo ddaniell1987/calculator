@@ -33,7 +33,7 @@ function App() {
     }
     return digits;
   }
-  const calculate = () => {
+  const calculate = () =>  {
     setCalc(eval(calc).toString());
   }
   const deleteLast = () => {
